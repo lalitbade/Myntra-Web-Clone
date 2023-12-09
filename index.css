@@ -9,12 +9,14 @@ header{
     background-color:#FFFFFF;
     justify-content:space-between ;
     align-items: center;
+    flex-shrink: 1;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 517px;
+    flex-shrink: 1;
 height: 86px;}
 
 nav a{
@@ -44,6 +46,7 @@ nav a:hover
     padding: 20px;
     justify-content: center;
     align-items: center;
+    flex-shrink: 1;
 
 }
 .material-symbols-outlined searchbar3{
@@ -64,6 +67,7 @@ nav a:hover
     background-color: #f5f5f6;
     border: none;
     padding-left: 25px;
+    flex-shrink: 1;
     font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 }
 
@@ -72,6 +76,7 @@ nav a:hover
     display: flex;
     align-items: center;
     width: 194px;
+    flex-shrink: 1;
     justify-content: space-around;
 }
 
@@ -89,113 +94,128 @@ sup{
 /*1425 423*/
 main{
     display: flex;
-    height: 1800px;
+    height: 100%;
     margin: 0;
     width: 100%;
     justify-content:space-between;
     flex-direction: column;
     align-items: center;
+    flex-shrink: 1;
+
 
 }
 .myntra{
     height:416px ;
-    width: 1400px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-shrink: 1;
 }
 .offers{
     height: 145px;
-    width: 1400px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-shrink: 1;
 }
 .offer1{
     height: 140px;
-    width: 695px;
+    width: 100%;
+   
+   
 }
 .offer2{
     height: 140px;
-    width: 695px;
+    width: 100%;
+    
 }
 .crdeals{
     height: 110px;
-    width: 1400px;
+    width: 100%;
+
 }
 img {
-    height: 416px;
+    height: 425px;
 }
 
 .banner1{
     height: 416px;
-    width: 1400px;
+    width: 100%;
 }
 .banner2{
     height: 416px;
-    width: 1400px;
+    width: 100%;
 }
 .crzy{
     display: flex;
     height: 110px;
-    width: 1400px;
+    width: 100%;
     flex-direction:column;
     justify-content: center;
+    flex-shrink: 1;
 }
 .pics{
     display: flex;
     height: 168px;
-    width: 1400px;
+    width: 100%;
     flex-direction: row;
     justify-content: center;
+    flex-shrink: 1;
 
 }
 .off{
     height: 168px;
-    width: 128px;
+    width: 100%;
 
 }
 .catban{ display: flex;
     height: 110px;
-    width: 1400px;
+    width: 100%;
     flex-direction:column;
     justify-content: center;
+    flex-shrink: 1;
+    
 
 }
 .cban{
     height: 110px;
-    width: 1400px;
+    width: 100%;
 }
 .photos{
     display: flex;
     height: 310px;
-    width: 1400px;
+    width: 100%;
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
+    flex-shrink: 1;
 
 }
 .photos1{
     display: flex;
     height: 310px;
-    width: 1400px;
+    width: 100%;
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
+    flex-shrink: 1;
 
 }
 .offs{
     height: 290px;
-    width: 238px;
+    width: 100%;
 
 }
 .labanner{
     height: 255px;
-    width: 1400px;
+    width: 100%;
     display: flex;
     justify-content: center;
+    flex-shrink: 1;
 }
 .lban{
     height: 255px;
-    width: 1400px;
+    width: 100%;
 }
