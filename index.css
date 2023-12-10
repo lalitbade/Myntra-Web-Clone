@@ -8,15 +8,15 @@ header{
     height:80px;
     width: 100%;
     background-color:#FFFFFF;
-    justify-content:space-between;
+    justify-content:space-between ;
     align-items: center;
     flex-shrink: 1;
 }
 nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    width: 700px;
+    width: 517px;
     flex-shrink: 1;
 height: 86px;}
 
@@ -27,7 +27,7 @@ text-decoration: none;
 text-transform: uppercase;
 color: black;
 font-size: 13px;
-padding:19px;}
+padding:10px;}
 
 nav a:hover
 {
@@ -87,7 +87,6 @@ div a{
     text-decoration: none;
     text-transform: uppercase;
     color: black;
-    width: 100%;
 }
 sup{
     color: red;
