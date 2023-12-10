@@ -4,6 +4,7 @@
 }
 header{
     display:flex;
+    position:fixed;
     height:80px;
     width: 100%;
     background-color:#FFFFFF;
@@ -37,6 +38,7 @@ nav a:hover
     height: 45px;
     width: 65px;
     padding-left: 45px;
+    padding-bottom: 72px;
 }
 
 .searchbar{
@@ -147,6 +149,7 @@ img {
 img{
     height: 416px;
     width: 100%;
+    padding-top: 80px;
 }
 .crzy{
     display: flex;
