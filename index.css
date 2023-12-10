@@ -16,7 +16,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 517px;
+    width: 100%;
     flex-shrink: 1;
 height: 86px;}
 
@@ -87,6 +87,7 @@ div a{
     text-decoration: none;
     text-transform: uppercase;
     color: black;
+    width:100%;
 }
 sup{
     color: red;
