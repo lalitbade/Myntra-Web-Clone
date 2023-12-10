@@ -38,7 +38,6 @@ nav a:hover
     height: 45px;
     width: 65px;
     padding-left: 45px;
-    padding-bottom: 72px;
 }
 
 .searchbar{
@@ -96,6 +95,7 @@ sup{
 /*1425 423*/
 main{
     display: flex;
+    padding-top:80px;
     height: 100%;
     margin: 0;
     width: 100%;
@@ -149,7 +149,6 @@ img {
 img{
     height: 416px;
     width: 100%;
-    padding-top: 80px;
 }
 .crzy{
     display: flex;
