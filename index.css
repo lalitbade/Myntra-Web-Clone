@@ -5,18 +5,20 @@
 header{
     display:flex;
     position:fixed;
-    height:80px;
-    width: 100%;
+    max-height:80px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
     background-color:#FFFFFF;
-    justify-content:space-between ;
+    justify-content:space-between;
     align-items: center;
     flex-shrink: 1;
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    width: 517px;
+    width: 700px;
     flex-shrink: 1;
 height: 86px;}
 
@@ -27,7 +29,7 @@ text-decoration: none;
 text-transform: uppercase;
 color: black;
 font-size: 13px;
-padding:10px;}
+padding:19px;}
 
 nav a:hover
 {
@@ -35,8 +37,10 @@ nav a:hover
 }
 
 .logo{
-    height: 45px;
-    width: 65px;
+    max-height: 45px;
+    height: auto;
+    max-width: 65px;
+    width: auto;
     padding-left: 45px;
 }
 
@@ -87,6 +91,7 @@ div a{
     text-decoration: none;
     text-transform: uppercase;
     color: black;
+    width: 100%;
 }
 sup{
     color: red;
@@ -99,7 +104,7 @@ main{
     height: 100%;
     margin: 0;
     width: 100%;
-    justify-content:space-between;
+    justify-content:space-evenly;
     flex-direction: column;
     align-items: center;
     flex-shrink: 1;
@@ -107,86 +112,114 @@ main{
 
 }
 .gif{
-    height: 50px;
-    width: 100%;
+    max-height: 100px;
+    height: auto;
+    max-width: 100%;
+    width:auto;
     display: flex;
     justify-content: center;
     flex-shrink: 1;
-    padding-bottom: 80px;
+    padding-bottom: 10px;
 }
 .gif1 img{
-    height: 100px;
-    width: 100%;
+    max-height: 100px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
 }
 .myntra{
-    height:416px ;
-    width: 100%;
+    max-height:416px ;
+    height: auto;
+    max-width: 100%;
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-shrink: 1;
 }
 .offers{
-    height: 145px;
+    height: 140px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-shrink: 1;
 }
-.offer1{
-    height: 140px;
-    width: 100%;
+
+.offer1 img{
+    max-height: 140px;
+    height: auto;
+    max-width: 50%;
+    width: auto;
    
    
 }
-.offer2{
-    height: 140px;
-    width: 100%;
+.offer2 img{
+    max-height: 140px;
+    height: auto;
+    max-width: 50%;
+    width: auto;
     
 }
 .crdeals{
-    height: 110px;
-    width: 100%;
+    max-height: 110px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
 
 }
 img {
-    height: 425px;
+    max-height: 110px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
 }
 
 .banner1{
-    height: 416px;
-    width: 100%;
+    max-height: 416px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
 }
 img{
-    height: 416px;
-    width: 100%;
+    max-height: 416px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
 }
 .crzy{
     display: flex;
-    height: 110px;
-    width: 100%;
+    max-height: 110px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
     flex-direction:column;
     justify-content: center;
     flex-shrink: 1;
 }
 .pics{
     display: flex;
-    height: 168px;
-    width: 100%;
+    max-height: 168px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
     flex-direction: row;
     justify-content: center;
     flex-shrink: 1;
 
 }
 .off{
-    height: 168px;
-    width: 100%;
+    max-height: 168px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
 
 }
 .catban{ display: flex;
-    height: 110px;
-    width: 100%;
+    max-height: 110px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
     flex-direction:column;
     justify-content: center;
     flex-shrink: 1;
@@ -194,13 +227,17 @@ img{
 
 }
 .cban{
-    height: 110px;
-    width: 100%;
+    max-height: 110px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
 }
 .photos{
     display: flex;
-    height: 310px;
-    width: 100%;
+    max-height: 310px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
@@ -209,8 +246,10 @@ img{
 }
 .photos1{
     display: flex;
-    height: 310px;
-    width: 100%;
+    max-height: 310px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
@@ -218,18 +257,24 @@ img{
 
 }
 .offs{
-    height: 290px;
-    width: 100%;
+    max-height: 290px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
 
 }
 .labanner{
-    height: 255px;
-    width: 100%;
+    max-height: 255px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
     display: flex;
     justify-content: center;
     flex-shrink: 1;
 }
 .lban{
-    height: 255px;
-    width: 100%;
+    max-height: 255px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
 }
